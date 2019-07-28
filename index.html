@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BMI Calculator, Calculate Your BMI, Healthy Lifestyle">
+  <meta name="author" content="Jennifer Nguyen">
+  <title>BMI Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- bmi results -->
+    <div class="bmi-results-info" tabindex="0">
+      <p class="space">Your Results</p>
+    </div>
+    <!-- heart -->
+    <div class="heart" tabindex="0" aria-label="bmi score"></div>
+    <input id="bmiresults" type="number" disabled>
+
+  <!-- height, weight, calculate button -->
+  <form class="bmi-user-info">
+    <div class="height-label">
+      <label for="height-feet" tabindex="0">Height</label>
+        <input
+          id="height-feet"
+          type="number"
+          onfocus="this.value=''"
+          name="height-weight"
+          placeholder="Feet"
+          autocomplete="off"
+          required>
+        <input
+          id="height-inches"
+          type="number"
+          onfocus="this.value=''"
+          name="height-weight"
+          placeholder="Inches"
+          autocomplete="off"
+          required>
+    </div>
+
+    <div class="weight-label">
+        <label for="weight-lbs" tabindex="0">Weight</label>
+        <input
+          id="weight-lbs"
+          type="number"
+          onfocus="this.value=''"
+          name="height-weight"
+          placeholder="Pounds"
+          autocomplete="off"
+          required>
+      </div>
+
+      <div class="buttonWrapper">
+        <input id="bmiButton" value="Calculate BMI" />
+      </div>
+  </form>
+</div>
+
+<footer class="author-ftr">
+  <p class="author" tabindex="0">© JENNIFER NGUYEN</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
