@@ -4,7 +4,7 @@
 
 body,
 html {
-  background: #000;
+  background-color: #000;
   font-family: 'Rubik', sans-serif;
   height: 100vh;
   margin: auto;
@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-  background: #fff;
+  background-color: #fff;
   border: 2px solid rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -25,9 +25,10 @@ html {
 
 /***************display results*****************/
 #bmiresults {
-  background: #f00;
+  background-color: #f00;
   border: none;
   color: #fff;
+  font-family: 'Rubik', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   left: 12.6rem;
@@ -39,7 +40,7 @@ html {
 }
 
 .bmi-results-info {
-  background: #FAFAD2;
+  background-color: #FAFAD2;
   border-bottom: 1.1px solid rgba(0, 0, 0, 0.1);
   border-top-left-radius: 0.85rem;
   -webkit-border-top-left-radius: 0.85rem;
@@ -58,7 +59,7 @@ html {
 
 /***************heart*****************/
 .heart {
-  background: #f00;
+  background-color: #f00;
   height: 8rem;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -71,7 +72,7 @@ html {
 
 .heart:before,
 .heart:after {
-  background: #f00;
+  background-color: #f00;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -107,11 +108,11 @@ html {
 
 #height-inches {
   margin-right: 0.4rem;
+  width: 3.9rem;
 }
 
-#height-inches,
 #weight-lbs {
-  width: 4rem;
+  width: 4.2rem;
 }
 
 #height-feet,
@@ -123,17 +124,19 @@ html {
 #height-inches,
 #weight-lbs {
   border: none;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.1rem;
 }
 
 /***************calculate button*****************/
 #bmiButton {
-  background: #9898a6;
+  background-color: #9898a6;
   border: 0.2rem solid #9898a6;
   border-radius: 1rem;
   -moz-border-radius: 1rem;
   -webkit-border-radius: 1rem;
   cursor: pointer;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.7rem;
   font-weight: bold;
   height: 6rem;
@@ -145,7 +148,7 @@ html {
 }
 
 #bmiButton:hover {
-  background: #99ffd8;
+  background-color: #99ffd8;
   border: 0.2rem solid #99ffd8;
 }
 
